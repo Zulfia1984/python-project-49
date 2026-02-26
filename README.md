@@ -3,4 +3,5 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Zulfia1984_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Zulfia1984_python-project-49)
 [![asciicast](https://asciinema.org/a/Sdl35NPQK7lM443f.svg)](https://asciinema.org/a/Sdl35NPQK7lM443f)
 [![asciicast](https://asciinema.org/a/sBVaMRyrGM9wIklV.svg)](https://asciinema.org/a/sBVaMRyrGM9wIklV)
+[![asciicast](https://asciinema.org/a/v1wBUrUAO8R1Qz86.svg)](https://asciinema.org/a/v1wBUrUAO8R1Qz86)
 
