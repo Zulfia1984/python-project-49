@@ -8,11 +8,11 @@ def elements():
     d = random.randint(1, 10)
     f = random.randint(1, 20)
     sp = [str(f)]
-    for j in range(1, n):
+    for j in range(1, n+1):
         m = f + d * j
         sp.append(str(m))
     x = random.randint(0, n - 1)
     correct_answ = sp[x]
     sp[x] = ".."
-    quest = ", ".join(sp)
+    quest = " ".join(sp)
     return (quest, correct_answ)
