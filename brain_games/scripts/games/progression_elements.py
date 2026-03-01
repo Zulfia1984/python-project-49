@@ -8,7 +8,7 @@ def elements():
     d = random.randint(1, 10)
     f = random.randint(1, 20)
     sp = [str(f)]
-    for j in range(1, n+1):
+    for j in range(1, n + 1):
         m = f + d * j
         sp.append(str(m))
     x = random.randint(0, n - 1)
