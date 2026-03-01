@@ -1,7 +1,5 @@
 import prompt
 
-import random
-
 
 def game_structure(game_name, elements):
     print("Welcome to the Brain Games!")
@@ -14,7 +12,7 @@ def game_structure(game_name, elements):
         answ = prompt.string("Your answer: ")
         if answ == str(correct_answ):
             print("Correct!")
-            if i==2:
+            if i == 2:
                 print(f"Congratulations, {name}!")
         if answ != str(correct_answ):
             print(f"'{answ}' is wrong answer ;(. Correct answer was '{correct_answ}'.")

@@ -1,5 +1,5 @@
 from brain_games.scripts.games.game_sceleton import game_structure
-from brain_games.scripts.games.progression_elements import elements, game_name
+from brain_games.scripts.games.prime_elements import elements, game_name
 
 
 def main():
