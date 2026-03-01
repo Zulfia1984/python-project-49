@@ -7,10 +7,10 @@ def elements():
     a = random.randint(1, 1000)
     for i in range(2, a):
         if a % i == 0:
-            correct_answ = "no"
+            cr_an = "no"
             break
         else:
-            correct_answ = "yes"
+            cr_an = "yes"
     
     quest = a
-    return (quest, correct_answ)
+    return (quest, cr_an)

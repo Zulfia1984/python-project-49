@@ -6,8 +6,8 @@ game_name = 'Answer "yes" if the number is even, otherwise answer "no".'
 def elements():
     a = random.randint(0, 1000)
     if a % 2 == 0:
-        correct_answ = "yes"
+        cr_an = "yes"
     else:
-        correct_answ = "no"
+        cr_an = "no"
     quest = a
-    return (quest, correct_answ)
+    return (quest, cr_an)

@@ -12,7 +12,7 @@ def elements():
         m = f + d * j
         sp.append(str(m))
     x = random.randint(0, n - 1)
-    correct_answ = sp[x]
+    cr_an = sp[x]
     sp[x] = ".."
     quest = " ".join(sp)
-    return (quest, correct_answ)
+    return (quest, cr_an)

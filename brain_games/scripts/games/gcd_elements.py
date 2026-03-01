@@ -9,7 +9,7 @@ def elements():
     z = min(a, b)
     for i in range(z, 0, -1):
         if a % i == 0 and b % i == 0:
-            correct_answ = i
+            cr_an = i
             break
     quest = str(a) + " " + str(b)
-    return (quest, correct_answ)
+    return (quest, cr_an)

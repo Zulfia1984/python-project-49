@@ -8,10 +8,10 @@ def elements():
     b = random.randint(0, 1000)
     operator = random.choice(["+", "-", "*"])
     if operator == "+":
-        correct_answ = a + b
+        cr_an = a + b
     if operator == "-":
-        correct_answ = a - b
+        cr_an = a - b
     if operator == "*":
-        correct_answ = a * b
+        cr_an = a * b
     quest = f"{a} {operator} {b}"
-    return (quest, correct_answ)
+    return (quest, cr_an)
